@@ -16,7 +16,6 @@
    Since Amasty does not directly check if this email address already exists in Magento when initially building the email form, the layout (A or B) may be incorrect, which can cause the customer to be prevented from logging in.
    So we extend the associated component (Amasty_Checkout/js/view/form/element/email) and its "initialize" method with a mixin and add the check.
 
-
 #### Installation
 ```bash
 composer require mediarox/module-compatibility-amasty-checkout-magento-persistent
