@@ -7,7 +7,7 @@
     "MIT"
   ],
   "require": {
-    "amasty/module-single-step-checkout": "^4.1",
+    "amasty/module-one-step-checkout-core": "^1.2.8",
     "magento/module-persistent": "100.4.*"
   },
   "autoload": {

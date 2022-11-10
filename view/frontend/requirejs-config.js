@@ -6,7 +6,7 @@
 var config = {
     config: {
         mixins: {
-            'Amasty_Checkout/js/view/form/element/email': {
+            'Amasty_CheckoutCore/js/view/form/element/email': {
                 'Compatibility_AmastyCheckoutMagentoPersistent/js/view/form/element/email-mixin': true
             }
         }

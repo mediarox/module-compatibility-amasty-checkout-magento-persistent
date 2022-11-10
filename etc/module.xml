@@ -9,7 +9,7 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <module name="Compatibility_AmastyCheckoutMagentoPersistent" setup_version="0.0.1">
         <sequence>
-            <module name="Amasty_Checkout"/>
+            <module name="Amasty_CheckoutCore"/>
             <module name="MagentoPersistent"/>
         </sequence>
     </module>
